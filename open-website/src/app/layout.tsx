@@ -1,33 +1,45 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+import { ReactNode } from "react";
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-export const metadata: Metadata = {
-  title: "OpenTurret Demo Page",
-  description: "Made by Stefan Fellner",
+export const metadata = {
+  title: "OpenTurret – Projekt",
+  description: "Dokumentation über das OpenTurret Projekt",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+    <html lang="de">
+      <body style={{ fontFamily: "sans-serif" }}>
+        <header
+          style={{
+            padding: "1rem",
+            background: "#eee",
+            display: "flex",
+            gap: "1.5rem",
+            borderBottom: "1px solid #ccc",
+          }}
+        >
+          <a href="./">Home</a>
+          <a href="/project">Projekt</a>
+          <a href="/tech">Technik</a>
+          <a href="/requirements">Anforderungen</a>
+          <a href="/development">Entwicklung</a>
+          <a href="/team">Team</a>
+        </header>
+
+        <main>{children}</main>
+
+        <footer
+          style={{
+            padding: "1rem",
+            marginTop: "2rem",
+            background: "#eee",
+            borderTop: "1px solid #ccc",
+          }}
+        >
+          © {new Date().getFullYear()} OpenTurret
+        </footer>
       </body>
     </html>
   );
