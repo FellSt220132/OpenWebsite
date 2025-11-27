@@ -1,8 +1,8 @@
 export default function DevPage() {
     const updates = [
-        { version: "v0.1", date: "01.2025", desc: "Lorem Ipsum" },
-        { version: "v0.2", date: "02.2025", desc: "Lorem Ipsum" },
-        { version: "v0.3", date: "03.2025", desc: "Lorem Ipsum" },
+        { version: "v0.1", date: "01.2025", desc: "Muss noch" },
+        { version: "v0.2", date: "02.2025", desc: "Dokumentation in" },
+        { version: "v0.3", date: "03.2025", desc: "Projektversionen unterteilen" },
     ];
 
     return (

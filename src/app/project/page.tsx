@@ -1,15 +1,15 @@
 export default function ProjectPage() {
     const features = [
-        { title: "Objekterkennung", desc: "Erkennt und verfolgt Objekte automatisch." },
-        { title: "Steuerung", desc: "Steuerung per Controller und Tastatur möglich." },
-        { title: "Tracking-System", desc: "Präzises Tracking in Echtzeit." },
+        { title: "Objekterkennung", desc: "Erkennt Objekte mithilfe der TFLite Python Bibliothek und wandelt erkanntes Bild in Befehle für Microcontroller um" },
+        { title: "Steuerung", desc: "Steuerung per Controller (--> Pygame Bibliothek) und Tastatur möglich. UI wird auch in Python generiert" },
+        { title: "Trackingsystem", desc: "Von der Python Datei ausgegebenen Koordinaten und Befehle werden indirekt an Stepper Motoren weitergegeben" },
     ];
 
     return (
         <main className="grid gap-12">
             <h1 className="text-4xl sm:text-5xl font-extrabold text-cyan-400 text-center">Projektbeschreibung</h1>
             <p className="text-gray-300 text-lg sm:text-xl text-center max-w-2xl mx-auto mb-8">
-                Lorem Ipsum Dolor amet ...
+                Softwarekomponenten unseres Projekts
             </p>
 
             <div className="grid sm:grid-cols-3 gap-6">

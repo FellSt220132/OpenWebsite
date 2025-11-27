@@ -1,12 +1,34 @@
 export default function RequirementsPage() {
     return (
-        <main className="max-w-4xl mx-auto p-8 sm:p-16 bg-white rounded-2xl shadow-md">
-            <h1 className="text-4xl sm:text-5xl font-bold text-blue-600 mb-6">
+        <main className="space-y-12">
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-cyan-400 text-center">
                 Anforderungen
             </h1>
-            <p className="text-lg sm:text-xl text-gray-700">
-                Lorem ipsum dolor amet...
-            </p>
+
+            <div className="space-y-6">
+
+                {/* Functional Requirements */}
+                <section className="bg-gray-800/50 backdrop-blur-md rounded-2xl p-6 shadow-lg">
+                    <h2 className="text-2xl font-bold text-cyan-300 mb-4">
+                        Funktionale Anforderungen
+                    </h2>
+                    <p className="text-gray-200 leading-relaxed">
+                        Lorem ipsum dolor amet...
+                        Aus FA hinauskopieren
+                    </p>
+                </section>
+
+                {/* Non-functional Requirements */}
+                <section className="bg-gray-800/50 backdrop-blur-md rounded-2xl p-6 shadow-lg">
+                    <h2 className="text-2xl font-bold text-cyan-300 mb-4">
+                        Nicht-funktionale Anforderungen
+                    </h2>
+                    <p className="text-gray-200 leading-relaxed">
+                        Lorem Ipsum dolor amet...
+                        Aus NFA hinauskopieren
+                    </p>
+                </section>
+            </div>
         </main>
     );
 }

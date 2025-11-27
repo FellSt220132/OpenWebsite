@@ -16,7 +16,7 @@ export default function HomePage() {
       {/* Sections */}
       <section className="mt-16 grid gap-12">
         <div className="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8 shadow-lg">
-          <h2 className="text-3xl font-semibold text-cyan-400 mb-4">Zusammenfassung der Seite</h2>
+          <h2 className="text-3xl font-semibold text-cyan-400 mb-4">Preview</h2>
           <ul className="list-disc list-inside space-y-2 text-gray-200">
             <li className="hover:text-cyan-300 transition-colors cursor-pointer">Beschreibung des Projekts</li>
             <li className="hover:text-cyan-300 transition-colors cursor-pointer">Technische Architektur</li>

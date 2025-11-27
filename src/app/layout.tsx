@@ -27,7 +27,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
         {/* Footer */}
         <footer className="mt-12 py-6 text-center text-gray-400 border-t border-gray-700">
-          © {new Date().getFullYear()} OpenCompany -- By Werner, Klier and Fellner
+          © {new Date().getFullYear()} OpenTurret -- By Klier and Fellner
         </footer>
       </body>
     </html>

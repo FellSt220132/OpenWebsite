@@ -3,9 +3,9 @@ import { useState } from "react";
 
 export default function TechPage() {
     const sections = [
-        { title: "Hardware", content: "Steppermotors, camera, microcontroller, (recommended) modded Nerf gun" },
-        { title: "Firmware", content: "Embedded code controlling motors and gun" },
-        { title: "Software", content: "Object detection, tracking, controlled by user input" },
+        { title: "Hardware", content: "Steppermotoren, Kamera, Microcontroller, (empfohlen) modifizierte custom Nerf Waffe" },
+        { title: "Firmware", content: "Embedded Code, steuert Motoren und Waffe (wenn vorhanden) an " },
+        { title: "Software", content: "Objekterkennung und -verfolgung, Eingriffe von User immer möglich" },
     ];
 
     const [openIndex, setOpenIndex] = useState<number | null>(null);
