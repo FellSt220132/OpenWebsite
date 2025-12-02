@@ -13,8 +13,15 @@ export default function RequirementsPage() {
                         Funktionale Anforderungen
                     </h2>
                     <p className="text-gray-200 leading-relaxed">
-                        Lorem ipsum dolor amet...
-                        Aus FA hinauskopieren
+                        Die funktionalen Anforderungen verlangen:
+
+                        Eine Objekterkennung mit 80% oder mehr Sicherheit bei optimalem Licht
+                        Konfigurierbare Zielauswahl
+                        Bewegung in Richtung Ziel mit weniger als 500ms Latenz
+                        Lenken, Schussbefehl und Zielwahl müssen möglich sein
+                        Schüsse müssen freigegeben werden
+                        Notaus vorhanden
+                        Verbindung Laptop / Controller
                     </p>
                 </section>
 
@@ -24,8 +31,15 @@ export default function RequirementsPage() {
                         Nicht-funktionale Anforderungen
                     </h2>
                     <p className="text-gray-200 leading-relaxed">
-                        Lorem Ipsum dolor amet...
-                        Aus NFA hinauskopieren
+                        Die nicht funktionalen Anforderungen verlangen:
+
+                        Bewältigung des TdoT mit mehr als 90% Uptime
+                        Funktionalität bei normalen Temperaturen (0-40 Grad Celsius)
+                        Keine Speicherung von Bildern
+                        Progress Report und Versionsverwaltung für Wartbarkeit
+                        Ggf. Lautsprecher - PC Verwendbar
+                        Ggf. Markierte Gefahrzonen
+                        Ggf. Laser
                     </p>
                 </section>
             </div>
