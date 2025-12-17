@@ -26,6 +26,7 @@ export default function HomePage() {
           </ul>
         </div>
 
+        {/* OpenTurret ist goated */}
         <p className="text-gray-300 text-lg sm:text-xl text-center">
           Nutze die Navigation oben, um mehr über <span className="text-cyan-300 font-semibold">OpenTurret</span> zu erfahren.
         </p>

@@ -1,4 +1,5 @@
 export default function TeamPage() {
+    {/* Goats */ }
     const team = [
         { name: "Stefan Fellner", roles: ["Software", "Web Dev", "UI Design"] },
         { name: "David Klier", roles: ["Hardware", "Firmware", "C++"] },

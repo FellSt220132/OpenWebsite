@@ -13,6 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {/* Header */}
         <header className="bg-gray-800/80 backdrop-blur-md shadow-lg border-b border-gray-700 fixed w-full z-50">
           <nav className="max-w-6xl mx-auto flex justify-center space-x-6 py-4">
+            {/* Looks stupid, is stupid, works */}
             <a href="https://fellst220132.github.io/OpenWebsite/" className="text-gray-100 hover:text-cyan-400 transition-colors font-semibold tracking-wide">Home</a>
             <a href="https://fellst220132.github.io/OpenWebsite/project" className="text-gray-100 hover:text-cyan-400 transition-colors font-semibold tracking-wide">Projekt</a>
             <a href="https://fellst220132.github.io/OpenWebsite/tech" className="text-gray-100 hover:text-cyan-400 transition-colors font-semibold tracking-wide">Technik</a>

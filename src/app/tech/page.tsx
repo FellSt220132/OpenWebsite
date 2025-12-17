@@ -2,6 +2,7 @@
 import { useState } from "react";
 
 export default function TechPage() {
+    {/* Imagine Reading the Code of a Website */ }
     const sections = [
         { title: "Hardware", content: "Steppermotoren, Kamera, Microcontroller, (empfohlen) modifizierte custom Nerf Waffe" },
         { title: "Firmware", content: "Embedded Code, steuert Motoren und Waffe (wenn vorhanden) an " },

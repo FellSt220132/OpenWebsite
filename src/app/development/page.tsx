@@ -1,4 +1,5 @@
 export default function DevPage() {
+    {/* Developing a site about developing, keeping progress of the development in the development page... THIS is what im (not) getting paid for */ }
     const updates = [
         { version: "v0.0", date: "16.09.2025", desc: "Projektstart" },
         { version: "v0.5", date: "29.10.2025", desc: "Erste Demo Version" },

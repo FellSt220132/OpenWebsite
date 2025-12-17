@@ -1,4 +1,5 @@
 export default function RequirementsPage() {
+    {/* Why would YOU care about Requirements? */ }
     return (
         <main className="space-y-12">
             <h1 className="text-4xl sm:text-5xl font-extrabold text-cyan-400 text-center">

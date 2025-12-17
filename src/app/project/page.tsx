@@ -1,4 +1,5 @@
 export default function ProjectPage() {
+    {/* Someone has most likely read this line and wasted their time */ }
     const features = [
         { title: "Objekterkennung", desc: "Erkennt Objekte mithilfe der TFLite Python Bibliothek und wandelt erkanntes Bild in Befehle für Microcontroller um" },
         { title: "Steuerung", desc: "Steuerung per Controller (--> Pygame Bibliothek) und Tastatur möglich. UI wird auch in Python generiert" },
