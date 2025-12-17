@@ -1,8 +1,9 @@
 export default function DevPage() {
     const updates = [
-        { version: "v0.1", date: "01.2025", desc: "Muss noch" },
-        { version: "v0.2", date: "02.2025", desc: "Dokumentation in" },
-        { version: "v0.3", date: "03.2025", desc: "Projektversionen unterteilen" },
+        { version: "v0.0", date: "16.09.2025", desc: "Projektstart" },
+        { version: "v0.5", date: "29.10.2025", desc: "Erste Demo Version" },
+        { version: "v0.6", date: "2.12.2025", desc: "Neues Befehlssystem" },
+        { version: "v0.9", date: "16.12.2025", desc: "TdoT Version, prä Abschussmechanik" },
     ];
 
     return (
